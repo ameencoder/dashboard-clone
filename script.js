@@ -173,7 +173,7 @@ const data = [
 const render = function (data) {
   container[1].innerHTML = data
     .map(
-      d =>
+      (d) =>
         `<div class="container parent ${d.parentClass}">
   <div class="top-area flex">
     <span>${d.date}</span>

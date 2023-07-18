@@ -1,0 +1,87 @@
+@media only screen and (max-width: 768px) {
+  .app {
+    height: auto;
+  }
+
+  .title span {
+    font-size: 24px;
+  }
+
+  .stats.flex {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .stats--titles {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .stats--titles div > span {
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  /* list view */
+  .top-area span {
+    font-size: 14px;
+  }
+
+  .middle-area span {
+    font-size: 12px;
+  }
+
+  .middle-area span:first-child {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+  }
+
+  .progress p {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 3px;
+  }
+
+  .percentage-area span:last-child {
+    font-size: 14px;
+  }
+
+  .right {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 560px) {
+  /* list view for small devices */
+  .top-area span {
+    font-size: 10px;
+  }
+
+  .middle-area span {
+    font-size: 8px;
+  }
+
+  .middle-area span:first-child {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+  }
+
+  .progress p {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 3px;
+  }
+
+  .percentage-area span:last-child {
+    font-size: 12px;
+  }
+
+  .list-parent {
+    gap: 12px;
+  }
+}
