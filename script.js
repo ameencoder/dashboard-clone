@@ -1,10 +1,19 @@
 const container = document.querySelectorAll(".container");
 const tab = document.querySelectorAll(".stats--icons img");
 
+const date = new Date(Date.now());
+const month = date.toLocaleString("en-us", { month: "long" });
+const day = date.getDate();
+
+const label_date = (document.querySelector(
+  ".title_date"
+).textContent = `${month}, ${day}`);
+
 // list view
 tab[0].addEventListener("click", function () {
-  // active tab
+  // check screen size
   if (tab[1].classList.contains("active-tab")) {
+    // active tab
     tab[1].classList.remove("active-tab");
     tab[0].classList.add("active-tab");
 

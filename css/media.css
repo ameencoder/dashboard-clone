@@ -52,36 +52,9 @@
   .right {
     font-size: 14px;
   }
-}
-@media only screen and (max-width: 560px) {
-  /* list view for small devices */
-  .top-area span {
-    font-size: 10px;
-  }
 
-  .middle-area span {
-    font-size: 8px;
-  }
-
-  .middle-area span:first-child {
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    margin-bottom: 2px;
-  }
-
-  .progress p {
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    margin-bottom: 3px;
-  }
-
-  .percentage-area span:last-child {
-    font-size: 12px;
-  }
-
-  .list-parent {
-    gap: 12px;
+  /* ignore list-view on tablet and phones */
+  .stats--icons img:first-child {
+    display: none;
   }
 }
